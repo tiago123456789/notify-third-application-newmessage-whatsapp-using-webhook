@@ -1,0 +1,18 @@
+{
+  "name": "poc-notify-message-whatsapp-webhook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:bot": "node bot.js",
+    "start:handlers": "node ./handlersMessageQueue.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bull": "^4.8.5",
+    "venom-bot": "^4.3.0"
+  }
+}
